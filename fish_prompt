@@ -1,0 +1,4 @@
+function fish_prompt
+                                set_color cyan; echo -n (whoami); set_color blue; echo -n "@"; set_color magenta; echo -n machine;
+                                set_color blue; echo -n " " (prompt_pwd) " "; set_color 8b3eee; echo -en "\xE2\x9D\xAF"  (set_color normal)
+                        end
